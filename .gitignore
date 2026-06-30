@@ -1,0 +1,26 @@
+# Environment variables (contains API keys, secrets — never commit)
+.env
+
+# Generated Excel reports (regenerate with generate_report.py)
+*.xlsx
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# macOS system files
+.DS_Store
+*.swp
+*.swo
+
+# IDE / editor settings
+.idea/
+.vscode/
+*.sublime-*
+
+# OS trash
+.Trash/
